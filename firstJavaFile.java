@@ -1,5 +1,3 @@
-
-
 public class firstJavaFile{
 
 public static void main(String[] args){
