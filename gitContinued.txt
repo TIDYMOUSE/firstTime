@@ -1,0 +1,16 @@
+﻿
+
+
+
+git branch : shows all branches(branch in green indicates current branch)
+git branch branchName : creates a new branch with the provided name
+git checkout branchName : switches to branchName
+git checkout -b branchName : creates a new branch and also switches to it
+git merge branchName : merges branchName to master branch
+
+// copy paste the link of remote repository to push our local repository to our gitHub account
+Note : the name before repo link is the name of the remote repo
+
+
+git remote : shows name of all repo
+git remote -v : shows name and link of all repo
