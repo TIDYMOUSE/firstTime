@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS!!!!</title>
+  </head>
+  <body>
+    <h2>FORMS IN HTML</h2>
+    <form action="backend.py">
+      <!-- name attribute is used for the backend to identify -->
+      <div>Name : <input type="text" name="name" /></div>
+      <br/>
+      <div>Age : <input type="number" name="age" /></div>
+      <br/>
+      <div>
+        Qualification : 
+        D.pharm<input type="radio" name="qualification" /> 
+        B.pharm<input type="radio" name="qualification" /> <!-- both of them correspond to the same radio input bcoz they have the same name -->
+      </div>
+      <br />
+      <div>
+        Dream post :
+        <select name="post">
+          <option value="MBBS" selected>MBBS</option>
+          <option value="BROTHER/SISTER">BROTHER/SISTER</option>
+          <option value="WARDBOY">WARDBOY</option>
+          <option value="DOCTOR">DOCTOR</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <!-- Use label tag so when the user clicks on the text enclosed wtihin the label tag he is automatically input on the id same  as in the for -->
+        <label for="Email">Email : </label>
+        <input type="email" name="MyEmail" id="Email" />
+      </div>
+      <br />
+      <div>Married : <input type="checkbox" name="isMarried" checked /></div> <!-- use cheked to keep it checked by default -->
+      <br />
+      <div>
+        About yourself : <br /><textarea
+          name="myText"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="submit now" /><br />
+        <input type="reset" value="reset now" />
+      </div>
+      <br />
+    </form>
+  </body>
+</html>

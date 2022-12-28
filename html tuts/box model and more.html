@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OK welcome back</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Code+Pro:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: purple;
+      }
+      #tit {
+        font-size: 40px;
+        color: darkturquoise;
+        border: 5px solid rgb(255, 238, 0);
+        padding: 20px 20px 30px 20px;
+        margin: 51px 0px 58px 200px;
+        /* better give padding and margin like Ypx and Xpx */
+        width: 910px;
+        border-radius: 13px;
+      }
+      #overhere {
+        font-size: 16px;
+        color: rgb(1, 235, 126);
+        border-bottom: 2px solid whitesmoke;
+        border-top: 2px solid whitesmoke;
+        padding: 30px 20px;
+        width: fit-content;
+        margin-left: 210px;
+      }
+      .info {
+        font-family: "Source Code Pro", monospace;
+        border: 4px solid rgb(254, 255, 193);
+        background-color: rgb(74, 131, 255);
+        margin-top: 35px;
+        width: auto;
+        margin: 10px 10px;
+        border-radius: 20px;
+        padding: 15px 15px;
+      }
+      #mahiti {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+        border: 3px solid violet;
+        float: left;
+        width: 48%;
+        padding: 35px 0px;
+      }
+      #nonmahiti {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+        border: 3px solid violet;
+        float: right;
+        width: 48%;
+        padding: 25px 0px;
+        margin-bottom: 20px;
+      }
+      #dontnow {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+        border: 3px solid violet;
+        width: 100%;
+        clear: both;
+        padding: 25px 0px;
+      }
+      .navbar {
+        background-color: rgb(145, 142, 142);
+        border-radius: 20px;
+        margin: -16px 0px;
+        width: 100%;
+        height: 60px;
+      }
+      .navbar ul {
+        /* when we add width etc to elements in the parent block these elements overflow so do this to take them back to flow */
+        overflow: auto;
+      }
+      .navbar li {
+        /* to remove the underline and all through anchor elements */
+        list-style: none;
+        float: left;
+        padding: 20px 40px;
+      }
+      .navbar li a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: wheat;
+        font-size: 15px;
+      }
+      .navbar li a:hover {
+        font-size: 20px;
+        color: white;
+      }
+      .search {
+        float: right;
+        margin: 3px 85px;
+        padding: 10px 10px;
+      }
+      input {
+        font-family: "Montserrat", sans-serif;
+        font-style: italic;
+        font-size: 12px;
+        color: black;
+        padding: 5px 15px;
+        width: 205px;
+        border-radius: 14px;
+        border-color: white;
+      }
+      #btn {
+        background-color: burlywood;
+        background-color: #dc67c5;
+        margin-left: 580px;
+        padding: 10px 53px;
+        border-radius: 23px;
+        font-size: 20px;
+      }
+      #btn a {
+        text-decoration: none;
+      }
+      .reviews {
+        background-color: cornsilk;
+        margin: 4px auto;
+        padding: 20px;
+      }
+      .reviews h2 {
+        font-size: 50px;
+        color: #7d7488;
+        font-family: monospace;
+        margin: 3px auto;
+      }
+      .r {
+        width: 33%;
+        /* treats block elemens as inline and also by using display: block; you can convert inline to block and same concept for display: inline; */
+        display: inline-block;
+        margin: 9px 0px;
+        border: 3px solid chartreuse;
+        background-color: whitesmoke;
+        color: #613b58;
+        font-family: "Montserrat", sans-serif;
+        padding: 10px 10px;
+        font-size: 16px;
+      }
+      .r h1 {
+        font-size: 22px;
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="TOP">
+        <ul>
+          <li><a href="index.html" target="_blank">Index html</a></li>
+          <li>
+            <a href="test folder/test file.html" target="_blank"
+              >random images</a
+            >
+          </li>
+          <li><a href="forms.html" target="_blank">forms</a></li>
+          <li>
+            <a href="tables_and_ul,ol.html" target="_blank">tables and more</a>
+          </li>
+          <li><a href="https://google.com" target="_blank">google</a></li>
+          <div class="search">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search..."
+            />
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h3 id="tit">WELCOME FOR BOX MODEL AND MORE!!!!</h3>
+      <p id="overhere">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga at eius
+        blanditiis omnis consectetur quisquam officia ullam rem eveniet.
+      </p>
+    </div>
+    <div class="info">
+      <h2 style="font-size: 30px">AANDRA KA PANDRA</h2>
+      <div id="mahiti">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam,
+          voluptate iusto! Saepe, numquam sed unde quidem, animi error fugiat
+          quas sint natus expedita in eaque, dolor dicta veritatis quae corporis
+          ipsam blanditiis voluptatem.
+        </p>
+      </div>
+      <div id="nonmahiti">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          nesciunt vel est quidem, alias velit ipsa debitis molestiae quos
+          voluptas dolores quam expedita incidunt iste dignissimos impedit saepe
+          voluptates necessitatibus. Alias soluta molestias animi.
+        </p>
+      </div>
+      <div id="dontnow">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+          recusandae libero delectus facilis quibusdam. Necessitatibus, odit non
+          exercitationem quidem quia commodi voluptas sequi eum, maiores in enim
+          quam illo incidunt. Eum, modi quis.
+        </p>
+      </div>
+    </div>
+    <div class="reviews">
+      <h2>PUBLIC REVIEWS</h2>
+      <div class="r">
+        <h1>LEENA YADAV</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        eveniet ex explicabo voluptates temporibus accusamus dolorum repudiandae
+        quisquam rem dignissimos mollitia excepturi similique ipsa nisi, id eos
+        facilis quidem saepe. Quas iste repellat maiores aperiam.
+      </div>
+      <div class="r">
+        <h1>LEENA YADAV</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolor id
+        tempora velit magnam iusto, vitae excepturi expedita exercitationem ut
+        repudiandae tempore asperiores optio, aliquam quo in laborum ipsa vel
+        deleniti ad fuga. Doloremque, possimus?
+      </div>
+      <div class="r">
+        <h1>LEENA YADAV</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia
+        nulla voluptates necessitatibus porro, beatae iste dolores aperiam
+        ratione nihil nostrum? Nam sit qui tenetur nesciunt omnis quos est
+        quasi? Iusto facilis repellat quasi aspernatur?
+      </div>
+    </div>
+    <!-- IMPORTANT NOTE : i cannot href as .(class name) so i have to give it an id -->
+    <button id="btn"><a href="#TOP">BACK TO TOP</a></button>
+  </body>
+</html>
+
+<!-- remember for external padding use margin and for internal padding use padding!!! -->
+
+<!-- /* relative: Positions the element relative to its normal positon and will leave a gap at its normal position*/
+          /* position: relative; */
+          
+          /* absolute: Positions the element relative to the positon of its first parent that is the block in which it orgininally belongs like creating a co ordinates system like in pygame*/
+          /* position: absolute; */
+  
+          /* top: 34px;
+          left: 134px; */
+  
+          /* fixed: Positions the element relative to the browser window;  whatsup and call icon in linupsystems.in */
+          /* position: fixed;
+          right: 4px;
+          bottom: 2px */
+  
+          /* sticky: Positions the element relative to the users scroll position. Sticks the element to a side on the screen w.r.t to its position in  first parent*/
+          position: sticky;
+          top: 3px; -->

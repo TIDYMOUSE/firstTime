@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/sanBackground.jpg');
+    background-size: cover;
+}
+#carl{
+    display: block; /* makes the element a block level element upon whom we can use margin:auto as it cannot be used on inline elements */
+    border-radius: 100px;
+    width: fit-content;
+    margin: 10px auto;
+    border: 2px solid whitesmoke;
+}
+h1{
+    font-family: 'Chela One', cursive;
+}
+#introText{
+    width: fit-content;
+    margin: auto;
+}
+header{
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.board{
+    background-image: url('images/woodenBoard.jpg');
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.homies{
+    margin: 20px 0px;
+    padding: px;
+}
+.homiesImg{
+    border-radius: 100px;
+    border: 1px solid wheat;
+}
+h2{
+    color: wheat;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+#bigsmokeBox:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+#bigsmokeBox:hover img{
+    transform: scale(1.1);
+}
+
+

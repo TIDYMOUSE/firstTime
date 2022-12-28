@@ -1,0 +1,6 @@
+1. for anchor tags :
+ a. target = "_blank" // opens the link on a new page
+
+2. use margin : auto; to center a div ( syntax = margin : yaxis xaxis/auto;) (MOTE : must use this with also defining the width or else it will fail)
+3. use text-decoration : none; on anchor to remove the underline
+4. element:hover, a:visited, a:active
